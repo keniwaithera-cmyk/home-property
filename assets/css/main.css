@@ -55,8 +55,8 @@
 }
 
 .accent-background {
-  --background-color: #077f46;
-  --default-color: #ffffff;
+  --background-color: pink;
+  --default-color: yellow;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
   --surface-color: #2a8f5f;
@@ -78,7 +78,7 @@ body {
 }
 
 a {
-  color: var(--accent-color);
+  color: blue;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -199,7 +199,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: indigo;
 }
 
 @media (max-width: 1200px) {
@@ -362,7 +362,7 @@ h6 {
     padding: 10px 0;
     margin: 0;
     border-radius: 6px;
-    background-color: var(--nav-mobile-background-color);
+    background-color: black;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -395,7 +395,7 @@ h6 {
     justify-content: center;
     border-radius: 50%;
     transition: 0.3s;
-    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    background-color: deeppink;
   }
 
   .navmenu a i:hover,
@@ -621,7 +621,7 @@ h6 {
 .footer .footer-contact .contact-item .contact-icon {
   width: 40px;
   height: 40px;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background-color: sandybrown;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -837,7 +837,7 @@ textarea::placeholder {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  background-color: grey;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -3007,7 +3007,7 @@ section,
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../img/bg/abstract-bg-3.webp") no-repeat center center;
+  background-image: url("https://pixabay.com/images/download/university-2104580_1920.jpg") ;
   background-size: cover;
   opacity: 0.03;
   z-index: 0;
